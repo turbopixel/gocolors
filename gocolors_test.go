@@ -26,7 +26,7 @@ func TestHex2RGB(t *testing.T) {
 	var rgb color.RGBA
 
 	// white
-	var hex = Hex("#fff")
+	var hex = "#fff"
 	rgb, _ = Hex2RGB(hex)
 
 	if rgb.R != test.R {
@@ -36,7 +36,7 @@ func TestHex2RGB(t *testing.T) {
 	}
 
 	// red
-	var hex2 = Hex("#f00")
+	var hex2 = "#f00"
 	test = color.RGBA{255, 0, 0, 0}
 	rgb, _ = Hex2RGB(hex2)
 
