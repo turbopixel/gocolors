@@ -1,7 +1,11 @@
 # gocolors
-Tiny golang color converter
+Tiny color converter written in [golang](https://go.dev/).
 
 With this small library color values can be converted from RGB to HEX or vice versa.
+
+## Requirements
+
+* go 1.18
 
 ## Example use
 
