@@ -19,10 +19,10 @@ import (
 func example() {
 	
   // CONVERT FROM RGB COLOR IN HEX
-  raw := RGB{0, 0, 0}
-  converted := Rgb2Hex(raw) // returns hex color
+  rgbcolor := RGB{0, 0, 0}
+  converted := Rgb2Hex(rgbcolor) // returns hex color
 
-  fmt.Println(fmt.Sprintf("converted RGB(%d,%d,%d) to HEX %s", raw.Red, raw.Green, raw.Blue, converted))
+  fmt.Println(fmt.Sprintf("converted RGB(%d,%d,%d) to HEX %s", rgbcolor.Red, rgbcolor.Green, rgbcolor.Blue, converted))
 
   // CONVERT FROM HEX IN RGB COLOR 
   hex := "#feefee"
